@@ -1,12 +1,8 @@
 import React from "react";
 import MovieCard from './components/MovieCard'
+import API_URL from './apikey'
 import './App.css'
 import SearchIcon from './search.svg'
-
-// OMDB API Key 6f57a76c
-// OMDB API Link http://www.omdbapi.com/?i=tt3896198&apikey=6f57a76c
-
-const API_URL = "http://www.omdbapi.com?apikey=6f57a76c"
 
 function App() {
     const [movies, setMovies] = React.useState([])
